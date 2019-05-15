@@ -1,0 +1,99 @@
+{
+  "woodList": [
+    {
+      "name": "方板",
+      "size": "60*60",
+      "thick": 7,
+      "count": 1234,
+      "singlePrice": 10,
+      "id": 1
+    },
+    {
+      "name": "方板",
+      "size": "70*60",
+      "thick": 5,
+      "count": 500,
+      "singlePrice": 9,
+      "id": 2
+    },
+    {
+      "name": "fgsdf",
+      "size": "50*50",
+      "thick": 10,
+      "count": 300,
+      "id": 3,
+      "singlePrice": 5.2
+    },
+    {
+      "name": "材料3",
+      "size": "40*40",
+      "thick": 3,
+      "count": 466,
+      "singlePrice": 5,
+      "id": 4
+    },
+    {
+      "name": "直板",
+      "size": "50*68",
+      "thick": 7,
+      "count": 1000,
+      "singlePrice": 12,
+      "id": 5
+    }
+  ],
+  "companies": [
+    {
+      "name": "企业1",
+      "boss": "老板1",
+      "phone": 123456,
+      "remarks": "",
+      "id": 1
+    },
+    {
+      "name": "企业2",
+      "boss": "老板2",
+      "phone": 153423456,
+      "remarks": "",
+      "id": 2
+    },
+    {
+      "name": "企业3",
+      "boss": "老板3",
+      "phone": 123443556,
+      "remarks": "",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "companyName": "企业1",
+      "bossName": "老板1",
+      "phone": 123456,
+      "createTime": 1557483247358,
+      "endTime": 1557503899741,
+      "remarks": "",
+      "woodId": 1,
+      "targetName": "sdfg",
+      "targetCount": 123,
+      "turnRate": 1,
+      "state": 2,
+      "price": 100,
+      "id": 2
+    },
+    {
+      "companyName": "企业2",
+      "bossName": "老板2",
+      "phone": 153423456,
+      "createTime": 1557502741407,
+      "endTime": "1天后",
+      "remarks": "",
+      "woodId": 1,
+      "targetName": "扶手",
+      "targetCount": 600,
+      "turnRate": 2,
+      "state": 1,
+      "price": "3000.00",
+      "id": 3
+    }
+  ]
+}
